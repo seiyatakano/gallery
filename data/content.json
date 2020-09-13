@@ -22,5 +22,13 @@
             "large": "img/realtime_chat-large.png",
             "url": "https://infinite-oasis-76193.herokuapp.com/public/"
         }
+    },
+    {
+        "title": "Portfolios",
+        "images": {
+            "thumb": "img/portfolios-thumb.png",
+            "large": "img/portfolios-large.png",
+            "url": "https://seiyatakano.github.io/gallery/"
+        }
     }
 ]

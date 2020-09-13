@@ -6,7 +6,7 @@ $(function() {
 
         $container.masonry({
             columnWidth: 230,
-            gutter: 10,
+            gutter: 15,
             itemSelector: '.gallery-item'
         });
 
