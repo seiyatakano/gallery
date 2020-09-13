@@ -13,6 +13,6 @@ ul#gallery{
 .gallery-item .is-loading{
     opacity: 0;
 }
-h2{
+.container h3{
     text-align: center;
 }
