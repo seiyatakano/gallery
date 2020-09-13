@@ -1,9 +1,10 @@
 .gallery{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 ul#gallery{
-    width: 90%;
+    margin: 0 auto;
+    width: 80%;
 }
 .gallery-item{
     list-style: none;
