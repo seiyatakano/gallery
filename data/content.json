@@ -3,21 +3,24 @@
         "title": "Schedule Arranger",
         "images": {
             "thumb": "img/schedule_arranger-thumb.png",
-            "large": "img/schedule_arranger-large.png"
+            "large": "img/schedule_arranger-large.png",
+            "url": "https://dry-tundra-88592.herokuapp.com/"
         }
     },
     {
         "title": "Photo Gallery",
         "images": {
             "thumb": "img/photo_gallery-thumb.png",
-            "large": "img/photo_gallery-large.png"
+            "large": "img/photo_gallery-large.png",
+            "url": "https://seiyatakano.github.io/gallery/"
         }
     },
     {
         "title": "Realtime Chat",
         "images": {
             "thumb": "img/realtime_chat-thumb.png",
-            "large": "img/realtime_chat-large.png"
+            "large": "img/realtime_chat-large.png",
+            "url": "https://infinite-oasis-76193.herokuapp.com/public/"
         }
     }
 ]

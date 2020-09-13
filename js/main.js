@@ -17,7 +17,7 @@ $(function() {
 
             //JSONのファイ列の要素をループ処理
             $.each(data, function(i, item) {
-                var itemHTML ='<li class="gallery-item is-loading">'+'<a href="'+item.images.large+'">'+'<img src="'+item.images.thumb+'"alt="'+item.title+'">'+'</a>'+'</li>';
+                var itemHTML ='<li class="gallery-item is-loading">'+'<a href="'+item.images.url+'">'+'<img src="'+item.images.thumb+'"alt="'+item.title+'">'+'</a>'+'</li>';
                 //HTML文字列をDOM要素化し配列に追加
                 elements.push($(itemHTML).get(0));
             });
