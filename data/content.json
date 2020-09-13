@@ -5,5 +5,12 @@
             "thumb": "img/schedule_arranger.png",
             "large": "img/schedule_arranger.png"
         }
+    },
+    {
+        "title": "Photo Gallery",
+        "images": {
+            "thumb": "img/photo_gallery.png",
+            "large": "img/photo_gallery.png"
+        }
     }
 ]
