@@ -2,15 +2,15 @@
     {
         "title": "Schedule Arranger",
         "images": {
-            "thumb": "img/schedule_arranger.png",
-            "large": "img/schedule_arranger.png"
+            "thumb": "img/schedule_arranger-thumb.png",
+            "large": "img/schedule_arranger-large.png"
         }
     },
     {
         "title": "Photo Gallery",
         "images": {
-            "thumb": "img/photo_gallery.png",
-            "large": "img/photo_gallery.png"
+            "thumb": "img/photo_gallery-thumb.png",
+            "large": "img/photo_gallery-large.png"
         }
     }
 ]
