@@ -4,6 +4,7 @@
 }
 ul#gallery{
     margin: 0 auto;
+    width: 970px;
 }
 .gallery-item{
     list-style: none;
