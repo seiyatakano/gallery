@@ -3,8 +3,8 @@
     padding: 0;
     width: 80%
 }
-#cover_gallery{
-    text-align: center;
+ul.gallery{
+    margin: 0 auto;
 }
 .gallery-item{
     list-style: none;
