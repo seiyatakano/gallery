@@ -5,8 +5,8 @@ $(function() {
         var $container = $(this);
 
         $container.masonry({
-            columnWidth: 200,
-            gutter: 2,
+            columnWidth: 230,
+            gutter: 10,
             itemSelector: '.gallery-item'
         });
 
