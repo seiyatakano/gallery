@@ -1,10 +1,10 @@
-main{
-    text-align: center;
-}
 .gallery{
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 80%
+}
+#cover_gallery{
+    text-align: center;
 }
 .gallery-item{
     list-style: none;
