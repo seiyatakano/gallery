@@ -1,12 +1,12 @@
 ul#gallery{
-    margin:0 auto;
     padding: 0;
-    width: 80%
+    width: 80%;
+    margin:0 auto;
 }
 .gallery-item{
     list-style: none;
     margin-top: 20px;
-    width: 30%;
+    width: 27%;
 }
 .gallery-item a img{
     width: 100%;
