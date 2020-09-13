@@ -1,19 +1,15 @@
-main{
-    width: 80%;
-}
 .gallery{
     margin: 0;
     padding: 0;
+    width: 90%;
 }
 .gallery-item{
     list-style: none;
     margin-top: 10px;
-}
-.gallery-item{
     width: 25%;
     height: auto;
 }
-.gallery-item img{
+.gallery-item a img{
     width: 100%;
     height: auto;
 }

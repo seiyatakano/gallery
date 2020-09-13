@@ -1,4 +1,5 @@
 'use strict';
+console.log("seiya");
 $(function() {
     $('#gallery').each(function () {
         var $container = $(this);
