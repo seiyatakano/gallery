@@ -12,5 +12,12 @@
             "thumb": "img/photo_gallery-thumb.png",
             "large": "img/photo_gallery-large.png"
         }
+    },
+    {
+        "title": "Realtime Chat",
+        "images": {
+            "thumb": "img/realtime_chat-thumb.png",
+            "large": "img/realtime_chat-large.png"
+        }
     }
 ]
