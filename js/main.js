@@ -1,7 +1,7 @@
 'use strict';
 
 $(function() {
-    console.log('attempt1');
+    console.log('attempt2');
     $('#gallery').each(function () {
         var $container = $(this);
 
