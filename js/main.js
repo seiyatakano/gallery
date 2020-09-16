@@ -45,18 +45,20 @@ $(function() {
     });
 });
 
-// $(function() {
-//     var duration = 300;
+$(function() {
+    var duration = 300;
 
-//     $images = $('.gallery-item li');
+    $images = $('.gallery-item li');
 
-//     $images
-//         .on('mouseover', function() {
-//             $(this).find('strong, span').stop(true).animate({
-//                 opacity:1
-//             }, duration);
-//         })
-//         .on('')
-
-            
-// });
+    $images
+        .on('mouseover', function() {
+            $(this).find('strong, span').stop(true).animate({
+                opacity:1
+            }, duration);
+        })
+        .on('mouseout', function() {
+            $(this).find('strong, span').stop(true).animate({
+                opacity: 0
+            }, duration);
+        }); 
+});

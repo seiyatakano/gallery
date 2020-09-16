@@ -13,13 +13,13 @@ ul#gallery{
 .gallery-item strong{
     opacity: 0;
 }
-img{
-    border: 5px dashed whitesmoke;
-}
 /* 画像の読み込み中は見えないように */
 .gallery-item .is-loading{
     opacity: 0;
 }
 #portfolios_gallery > h3{
     text-align: center;
+}
+.gallery-item img{
+    border: 5px dashed whitesmoke;
 }
