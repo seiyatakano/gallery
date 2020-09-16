@@ -24,6 +24,9 @@ ul#gallery{
 .gallery-item img{
     border: 5px dashed whitesmoke;
 }
+.gallery-item p {
+    overflow: hidden;
+}
 .gallery-item p strong{
     position: absolute;
     display:block;

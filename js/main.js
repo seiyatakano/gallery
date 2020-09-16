@@ -51,10 +51,9 @@ $(function() {
 
     var $images = $('.gallery-item p');
 
-    $images
-        .on('mouseover', function() {
+    $images.on('mouseover', function() {
             $(this).find('strong, span').stop(true).animate({
-                opacity:1
+                opacity: 1
             }, duration);
         })
         .on('mouseout', function() {
