@@ -50,7 +50,7 @@ $(function() {
 $(function() {
     var duration = 300;
 
-    $images = $('.gallery-item p');
+    var $images = $('.gallery-item p');
 
     $images
         .on('mouseover', function() {
