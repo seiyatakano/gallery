@@ -1,6 +1,7 @@
 'use strict';
 
 $(function() {
+    console.log('attempt1');
     $('#gallery').each(function () {
         var $container = $(this);
 
@@ -45,9 +46,7 @@ $(function() {
             });
         });
     });
-});
 
-$(function() {
     var duration = 300;
 
     var $images = $('.gallery-item p');
