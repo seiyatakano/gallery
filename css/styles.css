@@ -10,6 +10,12 @@ ul#gallery{
     list-style: none;
     margin-top: 20px;
 }
+.gallery-item strong{
+    opacity: 0;
+}
+img{
+    border: 5px dashed whitesmoke;
+}
 /* 画像の読み込み中は見えないように */
 .gallery-item .is-loading{
     opacity: 0;

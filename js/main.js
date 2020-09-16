@@ -17,7 +17,18 @@ $(function() {
 
             //JSONのファイ列の要素をループ処理
             $.each(data, function(i, item) {
-                var itemHTML ='<li class="gallery-item is-loading">'+'<a href="'+item.images.url+'">'+'<img src="'+item.images.thumb+'"alt="'+item.title+'">'+'</a>'+'</li>';
+                var itemHTML =
+                '<li class="gallery-item is-loading">'+
+                '<a href="'+item.images.url+'">'+
+                '<img src="'+
+                item.images.thumb+
+                '"alt="'+item.title+'">'+
+                '<strong>'+
+                item.images.title+
+                '</strong><span></span>'+
+                '</a>'+
+                '</li>';
+                
                 //HTML文字列をDOM要素化し配列に追加
                 elements.push($(itemHTML).get(0));
             });
@@ -33,3 +44,19 @@ $(function() {
         });
     });
 });
+
+// $(function() {
+//     var duration = 300;
+
+//     $images = $('.gallery-item li');
+
+//     $images
+//         .on('mouseover', function() {
+//             $(this).find('strong, span').stop(true).animate({
+//                 opacity:1
+//             }, duration);
+//         })
+//         .on('')
+
+            
+// });
