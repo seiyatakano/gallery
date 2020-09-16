@@ -24,7 +24,7 @@ ul#gallery{
 .gallery-item img{
     border: 5px dashed whitesmoke;
 }
-.gallery-item strong{
+.gallery-item p strong{
     position: absolute;
     display:block;
     z-index: 1;
@@ -34,9 +34,8 @@ ul#gallery{
     background: rgba(0, 0, 0, 0.5);
     text-align: left;
     padding: 20px;    
-    opacity: 0;
 }
-.gallery-item span{
+.gallery-item p span{
     position: absolute;
     display: block;
     z-index: 0;

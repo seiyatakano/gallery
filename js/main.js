@@ -20,12 +20,14 @@ $(function() {
                 var itemHTML =
                 '<li class="gallery-item is-loading">'+
                 '<a href="'+item.images.url+'">'+
+                '<p>'+
                 '<img src="'+
                 item.images.thumb+
                 '"alt="'+item.title+'">'+
                 '<strong>'+
-                item.images.title+
+                item.title+
                 '</strong><span></span>'+
+                '</p>'+
                 '</a>'+
                 '</li>';
                 
